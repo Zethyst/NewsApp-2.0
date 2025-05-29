@@ -101,7 +101,7 @@ export class Navbar extends Component {
                                         </form> */}
                                         </ul>
                                     </div>
-                                    <div className={`wrapper -translate-x-10 md:block ${isNavOpen ? 'block' : 'hidden'}`}>
+                                    <div className={`wrapper md:-translate-x-10 md:block ${isNavOpen ? 'block' : 'hidden'}`}>
                                         <div className="searchBar sm:w-96 md:w-72">
                                             <input id="searchQueryInput" type="text" name="searchQueryInput" placeholder="Search" value={this.state.searchInput} onChange={this.handleSubmit} onKeyDown={this.handleEnterKey} />
                                             <button id="searchQuerySubmit" type="submit" name="searchQuerySubmit" onClick={this.handleSubmit}>
