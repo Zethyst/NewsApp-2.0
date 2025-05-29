@@ -54,7 +54,7 @@ export class Navbar extends Component {
                                 <div className="col-12 block md:flex md:justify-between">
                                     <nav className="navbar navbar-expand-md navbar-light">
                                         <div className="flex items-center justify-between w-full">
-                                            <Link className="navbar-brand group transition-all duration-300 hover:scale-105 flex items-center justify-center gap-2" to='/Newsapp' style={{ fontWeight: "600" }}>
+                                            <Link className="navbar-brand group transition-all duration-300 hover:scale-105 flex items-center justify-center gap-2" to='/' style={{ fontWeight: "600" }}>
                                                 <div className="group-hover:rotate-6 w-8 h-8 bg-gradient-to-r from-purple-600 to-blue-600 rounded-lg flex items-center justify-center">
                                                     <span className="text-white font-bold text-sm">N</span>
                                                 </div>
@@ -74,7 +74,7 @@ export class Navbar extends Component {
 
                                         <ul className="flex flex-col md:flex-row items-start space-x-4 py-4 py-md-0 opacity-100">
                                             <li className={this.state.category === "General" ? 'nav-item pl-4 pl-md-0 ml-0 ml-md-4 active' : 'nav-item pl-4 pl-md-0 ml-0 ml-md-4'}>
-                                                <NavLink className="nav-link dropdown-toggle " activeclassname="active" data-toggle="dropdown" to="/Newsapp" onClick={this.handleClick}>All</NavLink>
+                                                <NavLink className="nav-link dropdown-toggle " activeclassname="active" data-toggle="dropdown" to="/" onClick={this.handleClick}>All</NavLink>
                                             </li>
                                             <li className={this.state.category === "Business" ? 'nav-item pl-4 pl-md-0 ml-0 ml-md-4 active' : 'nav-item pl-4 pl-md-0 ml-0 ml-md-4'} >
                                                 <Link className="font-medium nav-link dropdown-toggle text-gray-700 " to="/business" onClick={this.handleClick}>Business</Link>
