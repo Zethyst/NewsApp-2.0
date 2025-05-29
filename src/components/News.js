@@ -117,7 +117,7 @@ export class News extends Component {
     setTimeout(() => {
       this.loadNews(1, false);
     }, 300);
-    document.title = `${this.capitalize(this.props.category)} - NewsRadar`;
+    document.title = `${this.capitalize(this.props.category)} - Newstation`;
   }
 
   async componentDidUpdate(prevProps) {
@@ -129,7 +129,7 @@ export class News extends Component {
 
     // Update document title when category changes
     if (prevProps.category !== this.props.category) {
-      document.title = `${this.capitalize(this.props.category)} - NewsRadar`;
+      document.title = `${this.capitalize(this.props.category)} - Newstation`;
     }
   }
 

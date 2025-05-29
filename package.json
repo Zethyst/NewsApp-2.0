@@ -52,7 +52,7 @@
     "postcss": "^8.4.26",
     "tailwindcss": "^3.3.3"
   },
-  "description": "<h1 align=\"center\">NewsRadar - Your Trusted News Source</h1>",
+  "description": "<h1 align=\"center\">Newstation - Your Trusted News Source</h1>",
   "main": "postcss.config.js",
   "repository": {
     "type": "git",

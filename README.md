@@ -1,6 +1,6 @@
-<h1 align="center">NewsRadar - Your Trusted News Source</h1>
+<h1 align="center">Newstation - Your Trusted News Source</h1>
 
-<p>NewsRadar is a sleek and modern news website built to deliver the latest and most relevant news to users. With a user-friendly interface and a wide range of categories, NewsRadar keeps you informed on everything that matters. Developed with React.js, this project showcases responsive design, efficient user interactions, and seamless navigation. Stay updated with NewsRadar, your go-to news destination! </p>
+<p>Newstation is a sleek and modern news website built to deliver the latest and most relevant news to users. With a user-friendly interface and a wide range of categories, Newstation keeps you informed on everything that matters. Developed with React.js, this project showcases responsive design, efficient user interactions, and seamless navigation. Stay updated with Newstation, your go-to news destination! </p>
 
 [Visit Now](https://zethyst.github.io/Newsapp/) 🚀
 ### `npm start`
@@ -35,11 +35,11 @@ You may also see any lint errors in the console.
 
 <dt>User-Friendly Navigation:</dt><dd> Navigate effortlessly through the app using an intuitive and collapsible menu, optimized for mobile devices.</dd>
 
-<dt>Responsive Design:</dt><dd> Enjoy a seamless viewing experience across different devices, as NewsRadar's responsive design adapts to both desktop and mobile screens.</dd>
+<dt>Responsive Design:</dt><dd> Enjoy a seamless viewing experience across different devices, as Newstation's responsive design adapts to both desktop and mobile screens.</dd>
 </dl>
 <dt>Modern Web Technologies:</dt><dd> Built using cutting-edge web technologies such as React, Tailwind and React Router, ensuring a modern and feature-rich application.</dd>
 </dl>
-<dt>Stay Up-to-Date Easily:</dt><dd> Stay informed without hassle using NewsRadar's user-friendly interface, providing you with the latest news updates at your fingertips.</dd>
+<dt>Stay Up-to-Date Easily:</dt><dd> Stay informed without hassle using Newstation's user-friendly interface, providing you with the latest news updates at your fingertips.</dd>
 </dl>
 
 ## 📌 Screenshots:
