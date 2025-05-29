@@ -53,7 +53,7 @@ export class Navbar extends Component {
                             <div className="row">
                                 <div className="col-12 block md:flex md:justify-between">
                                     <nav className="navbar navbar-expand-md navbar-light">
-                                        <div className="flex items-center justify-between w-full">
+                                        <div className="flex items-center justify-between w-full ml-8">
                                             <Link className="navbar-brand group transition-all duration-300 hover:scale-105 flex items-center justify-center gap-2" to='/' style={{ fontWeight: "600" }}>
                                                 <div className="group-hover:rotate-6 w-8 h-8 bg-gradient-to-r from-purple-600 to-blue-600 rounded-lg flex items-center justify-center">
                                                     <span className="text-white font-bold text-sm">N</span>
@@ -101,9 +101,8 @@ export class Navbar extends Component {
                                         </form> */}
                                         </ul>
                                     </div>
-                                    <div className={`wrapper md:block ${isNavOpen ? 'block' : 'hidden'}`}>
-
-                                        <div className="searchBar md:translate-x-10 sm:w-96 md:w-72">
+                                    <div className={`wrapper -translate-x-10 md:block ${isNavOpen ? 'block' : 'hidden'}`}>
+                                        <div className="searchBar sm:w-96 md:w-72">
                                             <input id="searchQueryInput" type="text" name="searchQueryInput" placeholder="Search" value={this.state.searchInput} onChange={this.handleSubmit} onKeyDown={this.handleEnterKey} />
                                             <button id="searchQuerySubmit" type="submit" name="searchQuerySubmit" onClick={this.handleSubmit}>
                                                 <svg className='ml-2' style={{ width: "24px", height: "24px" }} viewBox="0 0 24 24"><path fill="#666666" d="M9.5,3A6.5,6.5 0 0,1 16,9.5C16,11.11 15.41,12.59 14.44,13.73L14.71,14H15.5L20.5,19L19,20.5L14,15.5V14.71L13.73,14.44C12.59,15.41 11.11,16 9.5,16A6.5,6.5 0 0,1 3,9.5A6.5,6.5 0 0,1 9.5,3M9.5,5C7,5 5,7 5,9.5C5,12 7,14 9.5,14C12,14 14,12 14,9.5C14,7 12,5 9.5,5Z" />

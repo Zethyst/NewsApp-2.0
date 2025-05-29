@@ -184,7 +184,7 @@ export class News extends Component {
             hasMore={hasMore}
             loader={
               <div className="flex justify-center">
-                <div className='space-x-32 my-4 w-[full] md:w-[64rem] row overflow-hidden'>
+                <div className='space-x-32 my-4 w-[full]  row overflow-hidden'>
                   {this.renderSkeletons()}
                 </div>
               </div>
