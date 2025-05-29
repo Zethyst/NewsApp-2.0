@@ -53,7 +53,7 @@ export class Navbar extends Component {
                             <div className="row">
                                 <div className="col-12 block md:flex md:justify-between">
                                     <nav className="navbar navbar-expand-md navbar-light">
-                                        <div className="flex items-center justify-between w-full ml-8">
+                                        <div className="flex items-center justify-between w-full md:ml-8">
                                             <Link className="navbar-brand group transition-all duration-300 hover:scale-105 flex items-center justify-center gap-2" to='/' style={{ fontWeight: "600" }}>
                                                 <div className="group-hover:rotate-6 w-8 h-8 bg-gradient-to-r from-purple-600 to-blue-600 rounded-lg flex items-center justify-center">
                                                     <span className="text-white font-bold text-sm">N</span>
